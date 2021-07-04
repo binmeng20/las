@@ -1,0 +1,34 @@
+{
+  "name": "lottery-in-bilibili",
+  "version": "2.2.0",
+  "description": "自动抽奖",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js start",
+    "clear": "node main.js clear",
+    "check": "node main.js check",
+    "test_start": "npm install && env.bat && node main.js start",
+    "test_clear": "npm install && env.bat && node main.js clear",
+    "test_check": "npm install && env.bat && node main.js check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shanmite/AutoScript.git"
+  },
+  "keywords": [
+    "auto",
+    "nodejs"
+  ],
+  "author": "shanmite",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/shanmite/AutoScript/issues"
+  },
+  "homepage": "https://github.com/shanmite/AutoScript#readme",
+  "devDependencies": {
+    "eslint": "^7.17.0"
+  },
+  "dependencies": {
+    "unzipper": "^0.10.11"
+  }
+}
